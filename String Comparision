@@ -1,0 +1,14 @@
+public class CompareToCompareToIgnoreCase {
+	public static void main(String args[]) {
+		String s1="Ab";
+		String s2="AB";
+		System.out.println(s1.compareTo(s2));
+		System.out.println(s1.compareToIgnoreCase(s2));
+	    
+		String s3="javacode";
+		String s4="";
+		System.out.println(s3.compareToIgnoreCase(s4));
+	}
+	
+
+}
