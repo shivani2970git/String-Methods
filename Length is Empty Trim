@@ -1,0 +1,39 @@
+public class LengthisEmptyTrimMethod {
+	public static void main(String args[]) {
+		String name="";
+		//String name="java";
+		int i=name.length();
+		if(i==0) {
+			System.out.println("name is empty");
+			
+		}
+		else {
+			System.out.println("valid name");
+		}
+
+      String nm="pooja";
+      boolean b=nm.isEmpty();
+      if(b==true) {
+    	  System.out.println("nm is empty");
+      }else {
+    	  System.out.println("valid name");
+      }
+      String name1=" pooja  ";
+      
+      if(name1.trim().length()==0) {
+    	  System.out.println("name is empty");
+    	  
+      }
+      else {
+    	  System.out.println("valid name");
+      }
+      if(name1.trim().isEmpty()==true) {
+    	  System.out.println("name is empty");
+      }
+      else {
+    	  System.out.println("valid name");
+      }
+	}
+}
+	
+
